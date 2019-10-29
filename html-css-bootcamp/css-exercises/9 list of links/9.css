@@ -1,0 +1,32 @@
+.list {
+max-width: 300px;
+background-color: rgb(229, 29, 132  );
+font-family: 'Montserrat', sans-serif;
+font-size: 12px;
+color: white;
+padding: 5px 5px 0px;
+box-sizing: border-box;
+}
+
+.list-links {
+list-style-type: none;
+padding-inline-start: 0px;
+margin-block-start: 0px;
+margin-block-end: 0px;
+
+}
+
+
+.list-links li {
+    
+    padding: 20px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    position: relative;
+}
+
+.list-links li::after {
+    content:"→";
+    color:white;
+    position: absolute;
+    right: 10px;;
+}

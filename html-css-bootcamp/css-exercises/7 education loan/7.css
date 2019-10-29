@@ -1,0 +1,56 @@
+.card-education {
+    width: 230px;
+    padding: 25px;
+    font-family: 'Raleway', sans-serif;
+    border: 1px solid lightgray;
+    box-sizing: content-box;
+    box-shadow: 5px -5px 6px -3px #D8D8D8;
+    line-height: 24px;
+    
+
+}
+
+.image {
+    padding: 20px 0;
+    margin: 0 auto;
+    
+}
+
+.image img {
+    width: 60px;
+    display: inline-block;
+    color: #8180e0;
+    margin-right: 50px;
+
+
+}
+
+.image span {
+    color: #cbcbeb;
+    font-size: 42px;
+    font-weight: bolder;
+    position: relative;
+    top: -15px;
+}
+.percent {
+
+}
+
+.card-education h1 {
+font-weight: 600;
+letter-spacing: 1px;
+font-size: 18px;
+color: #212121;
+
+}
+
+.card-education h2 {
+color: rgb(173, 172, 172);
+font-size: 16px;
+letter-spacing: 1px;
+font-weight: 400;
+}
+
+.card-education p {
+font-size: 18px;
+}

@@ -1,0 +1,131 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    color: #646464;
+    font-size: 1em;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto Slab', serif; 
+    text-align: center;
+    font-weight: 300;
+    color: #444;
+}
+
+h1 {
+    font-size: 3em;    
+}
+
+.description {
+    text-align: center;
+    padding: 50px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+/*About section*/
+.about-features {
+    display: flex;
+    justify-content: center;    
+}
+
+.features-item {
+    box-shadow: 0px 5px 40px -3px #A5A5A5;
+    margin: 10px 10px;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 2;
+}
+
+.features-image {
+    border-width: 0px;
+    background-color: #a0ce4e;
+    box-sizing: content-box;
+    height: 30px;
+    width: 30px;
+    padding: 15px;
+    line-height: 60px;
+    border-radius: 50%;
+
+}
+
+/*Team section*/
+.team {
+        
+    background-color: rgba(0,0,0,0.54);
+    background-image: url(https://avada.theme-fusion.com/classic/wp-content/uploads/sites/54/2019/08/investment-team-home.jpg);
+    background-blend-mode: overlay;
+    background-size: cover;
+    text-align: center;
+    padding: 80px 30px;
+    margin-top: 50px;
+}
+
+.white, .white h1{
+    color: white;
+}
+    
+.team-logos {
+    display: flex;
+    justify-content: center;
+}
+
+.team-single-logo {
+    width: 180px;
+    margin: 0 20px;
+
+}
+
+/*news section*/
+.news-list {
+    display: flex;
+}
+
+.news-item {
+    margin: 0 10px 30px;
+    border: 1px solid #646464;
+    box-shadow: 0px 3px 0px 0px #CACCCE;   
+}
+
+.news-item-image {
+    max-width: 100%;
+}
+
+.news-item-description {
+    padding: 20px;
+}
+
+.news-item .read-more {
+    font-size: 0.7em;
+}
+
+.news-item .comments {
+    float: right;
+    font-size: 0.7em;
+    background-image: url(images/chat-bubble.svg);
+    background-position-x: -30px;
+    background-repeat: no-repeat;
+    width: 10px;
+}
+
+@media screen and (max-width:900px){
+    .table {
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .news-list {
+        flex-direction: column;
+    }
+
+    .team-logos {
+        flex-wrap: wrap;
+    }
+}
