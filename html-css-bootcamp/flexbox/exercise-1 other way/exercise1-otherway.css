@@ -70,6 +70,7 @@ h2 {
 .team-logos {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .team-logos > img {
@@ -109,11 +110,13 @@ h2 {
     line-height: 2;
 }
 
-.news-separate {
-    margin-top: 20px;
-    height: 4px;
-    border-top: 1px solid #c9c6c6;
-    border-bottom: 1px solid #c9c6c6;
+.news-item-description > date::after {
+    display: block;
+    content: '';
+    margin-top: 20px; 
+    height: 4px; 
+    border-top: 1px solid #c9c6c6; 
+    border-bottom: 1px solid #c9c6c6; 
 }
 
 .news-item .read-more {
@@ -146,7 +149,4 @@ h2 {
         flex-direction: column;
     }
 
-    .team-logos {
-        flex-wrap: wrap;
-    }
 }
