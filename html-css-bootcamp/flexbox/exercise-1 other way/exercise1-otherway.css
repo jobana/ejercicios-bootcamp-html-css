@@ -1,9 +1,8 @@
 body {
     font-family: 'PT Sans', sans-serif;
     color: #646464;
-    font-size: 1em;
+    font-size: 16px;
 }
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -15,11 +14,12 @@ h1, h2, h3 {
     font-weight: 300;
     color: #444;
 }
-
 h1 {
     font-size: 3em;    
 }
-
+h2 {
+    font-size: 1.25em;
+}
 .description {
     text-align: center;
     padding: 50px;
@@ -52,7 +52,6 @@ h1 {
     border-radius: 50%;
 
 }
-
 /*Team section*/
 .team {
         
@@ -64,7 +63,6 @@ h1 {
     padding: 80px 30px;
     margin-top: 50px;
 }
-
 .white, .white h1{
     color: white;
 }
@@ -74,10 +72,9 @@ h1 {
     justify-content: center;
 }
 
-.team-single-logo {
+.team-logos > img {
     width: 180px;
     margin: 0 20px;
-
 }
 
 /*news section*/
@@ -99,6 +96,26 @@ h1 {
     padding: 20px;
 }
 
+.news-item-description > date {
+    font-size: 0.9em;
+}
+
+.news-item-description > h2 {
+    text-align: left;
+}
+
+.news-item-description > p {
+    text-align: left;
+    line-height: 2;
+}
+
+.news-separate {
+    margin-top: 20px;
+    height: 4px;
+    border-top: 1px solid #c9c6c6;
+    border-bottom: 1px solid #c9c6c6;
+}
+
 .news-item .read-more {
     font-size: 0.7em;
 }
@@ -112,14 +129,18 @@ h1 {
     width: 10px;
 }
 
+/*media queries*/
+
 @media screen and (max-width:900px){
-    .table {
-        flex-direction: column;
-    }
 
     h1 {
         font-size: 2em;
     }
+    
+    .about-features {
+        flex-direction: column;
+    }
+
 
     .news-list {
         flex-direction: column;
